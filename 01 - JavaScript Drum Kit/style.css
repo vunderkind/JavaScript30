@@ -1,15 +1,28 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(image/wick.jpg) bottom center;
   background-size: cover;
 }
+
 
 body,html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
+.section {
+  padding-left: 90px;
+  padding-top: 60px;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto Mono', monospace;
+  line-height: 0.2;
+}
 
+.section p {
+  font-size: 12px;
+  line-height: 1.5;
+}
 .keys {
   display: flex;
   flex: 1;
@@ -19,7 +32,7 @@ body,html {
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid rgb(84, 34, 104);
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -28,8 +41,8 @@ body,html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  background: rgba(85, 23, 49, 0.4);
+  text-shadow: 0 0 .5rem rgb(73, 17, 50);
 }
 
 .playing {
@@ -47,5 +60,5 @@ kbd {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: #ff702e;
 }
